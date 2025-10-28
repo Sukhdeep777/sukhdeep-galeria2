@@ -1,0 +1,198 @@
+
+
+/* Body */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 0px;
+    background-image: url(https://pbs.twimg.com/media/FRiVP17X0AA7n_K?format=jpg&name=4096x4096 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    color: #FFFFFF;
+    text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Titulo principal */
+.logo img{
+    width: 80px;
+    padding: 35px;
+    background-color: rgba(4, 16, 34, 0.603);
+    border-radius: 100px;
+    align-items: center;
+}
+
+.Encabezado{
+    border: 5px solid #FFFFFF; /* Borde al titulo h1*/
+    padding: 5px; /*Espacio interior de 30px*/
+    font-weight: bold; /*Assignar estilo de texto en negrita*/
+    color: #FFFFFF; /*Cambiar el color del texto*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.titulo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+    padding: 45px;
+    li{
+        list-style: none;
+    }
+    a{
+        color: #FFFFFF;
+    }
+    :hover{
+        transform: scale(1.2);
+        filter: brightness(1.4);
+    }
+}
+
+
+/* Index.HTML */
+.imagenes img{
+    width: 200px;
+}
+
+a{
+    text-decoration: none; /*Que no haya decoración la etiqueta <a>*/
+}
+
+h1{
+    color: #F0F0FC;
+    font-size: 60px;;
+    text-align: center;
+}
+
+
+.img-detalles{
+    width: 400px;
+    padding: 4px;
+    margin-bottom: 2px;
+}
+
+.imagenes{
+    display: flex; /*Caja de herramientas*/
+    justify-content: space-around; /*Ponerle un espacio entre cada carta pero que no se vayan de lado a lado*/
+    flex-wrap: wrap; /*Cuando la carta este a punto de sobrepassar la pantalla, se va hacia abajo*/
+}
+        
+.primera-linea{
+    display: flex;
+    gap: 20px; /*Separación entre cartas*/
+    flex-wrap: wrap;
+}
+
+.segunda-linea{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/*Animació*/
+.item:hover{
+    transform: scale(1.2) rotate(5deg); /*La imagen crece un 20% i rotar*/
+    filter: brightness(1.4); /*Añadir brillo a las cartas*/
+}
+
+
+/* Botones */
+.fondo-botones{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #043d67;
+    padding: 10px;
+    :hover{
+        transform: scale(1.1);
+    }
+}
+
+.fondo-botones a{
+    background-color: #F0F0FC;
+    color: #000000;
+    padding: 8px;
+}
+
+footer{  /* Footer paginas*/
+    bottom: 0;
+    padding: 15px;
+}
+
+/*Jugadores*/
+.posicion-texto{ /*Posiciones Text*/
+    width: 600px;
+    font-size: 17px;
+    border: 1px solid #043d67;
+    padding: 10px;
+    background-color: #043d67;
+    margin-bottom: 10px;
+}
+
+.-jugadores{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamaño-imagen{
+    width: 400px;
+    height: auto;
+    display: block;
+}
+.posicion-img{ /*Posicion imagen*/
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+
+.bordes{
+    border: 1px solid #FFFFFF; /*Borde blanco solido de un pixel*/
+    padding: 10px; /*Espacio interno de 10pixels*/
+}
+
+.video{ /*Video*/
+    display: flex;
+    align-items: center; /*Poner al centro el video de forma vertical*/
+}
+
+video{
+    width: 800px; /*Tamaño de los videos*/
+    border: 5px solid #043d67;
+    box-shadow: 6px 4px 6px #000000;
+    border-radius: 15px;
+}
+
+/*Referencias*/
+.fondo{
+    background-color: #043d67;
+    padding: 5px;
+    a{
+        color: #FFFFFF
+    }
+
+    li{
+        text-decoration: underline;
+        font-size: 17px;
+    }
+}
+
+.borde-interior{
+    border: 1px solid #FFFFFF; /*Borde blanco solido de un pixel*/
+    padding: 10px; /*Espacio interno de 10pixels*/
+}
