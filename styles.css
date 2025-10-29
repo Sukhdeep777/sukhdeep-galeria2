@@ -56,6 +56,11 @@ body{
     }
 }
 
+.centrado{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
 
 /* Index.HTML */
 .imagenes img{
