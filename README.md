@@ -1,1 +1,1 @@
-#Miniprojecte 2 - Galeria d'Imatges amb Pàgines de Detall
+# Miniprojecte 2 - Galeria d'Imatges amb Pàgines de Detall
