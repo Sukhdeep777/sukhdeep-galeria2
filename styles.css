@@ -2,8 +2,8 @@
 
 /* Body */
 body{
-    font-family: 'Courier New', Courier, monospace;
-    margin: 10px;
+    font-family: 'Courier New', Courier, monospace; /* Familia Fuente*/
+    margin: 10px; 
     padding: 0px;
     background-image: url(https://images.pexels.com/photos/3518623/pexels-photo-3518623.jpeg    );
     background-repeat: no-repeat;
@@ -62,6 +62,7 @@ body{
     gap: 30px;
 }
 
+/* Centrar el Texto*/
 .centrado2{
     display: flex;
     justify-content: center;
@@ -155,7 +156,7 @@ footer{  /* Footer paginas*/
     flex-wrap: wrap ;
 }
 
-.info{
+.info{ /*Para que se quede en el centro y no se deforme*/
     display: flex;
     justify-content: center;
     align-items: center;
